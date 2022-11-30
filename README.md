@@ -25,6 +25,7 @@ ViriusTrade is accessible and powerful.
 - **qiraxyz** : <br>
 <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/qiraxyz-leader-brightgreen"></a>
 <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/status-front--end-red"></a>
+<a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/status-back--end-red"></a>
 - **Rizkydi** : <br> 
 **<a href="https://github.com/rizkydi"><img src="https://img.shields.io/badge/rizkydi-front--end-blue"></a>**
 - **Fauzan Kirana** : <br>
