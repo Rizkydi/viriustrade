@@ -20,7 +20,7 @@ ViriusTrade is accessible and powerful.
 
 
 
-### Develop && Contribute By :
+### Develop && Contribute By
 
 - **qiraxyz** : <br>
 <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/qiraxyz-leader-brightgreen"></a>
@@ -33,7 +33,7 @@ ViriusTrade is accessible and powerful.
 - **Ammar Karim** : <br>
 **<a href="https://github.com/Kars12347"><img src="https://img.shields.io/badge/Ammar-mock--up-yellow"></a>**
 
-## Thanks To :
+## Thanks To
 
 - Laravel
 - Virius Team
