@@ -2,9 +2,9 @@
 
 <p align="center">
 <a href="https://github.com/qiraxyz/viriustrade/blob/main/README.md"><img src="https://img.shields.io/badge/status-progress-brightgreen" alt="Progress"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://github.com/qiraxyz/viriustrade"><img src="https://img.shields.io/badge/teamwork-4-red" alt="Teamwork"></a>
+<a href="https://github.com/qiraxyz/viriustrade/releases"><img src="https://img.shields.io/badge/version-1.0.1-blue" alt="Latest Stable Version"></a>
+<a href="https://github.com/qiraxyz/viriustrade/blob/main/LICENSE"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
 ## About Laravel
