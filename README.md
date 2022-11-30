@@ -32,3 +32,8 @@ ViriusTrade is accessible and powerful.
 **<a href="https://github.com/fauzankirana"><img src="https://img.shields.io/badge/fauzankir-database-orange"></a>**
 - **Ammar Karim** : <br>
 **<a href="https://github.com/Kars12347"><img src="https://img.shields.io/badge/Ammar-mock--up-yellow"></a>**
+
+## Thanks To :
+
+- Laravel
+- Virius Team
