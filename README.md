@@ -22,7 +22,7 @@ ViriusTrade is accessible and powerful.
 
 ### Develop && Contribute By :
 
-- QIRAXYZ :
+- QIRAXYZ : s
 <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/qiraxyz-leader-brightgreen"></a>
 - **<a href="https://github.com/rizkydi"><img src="https://img.shields.io/badge/rizkydi-front--end-blue"></a>**
 - **<a href="https://github.com/fauzankirana"><img src="https://img.shields.io/badge/fauzankir-database-orange"></a>**
