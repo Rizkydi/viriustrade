@@ -1,8 +1,7 @@
 <p align="center"><a href="https://virius.eu.org" target="_blank"><img src="https://i.ibb.co/gt8XvvN/logo-viriustrade.png" width="200" height="180" alt="Virius Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/qiraxyz"><img title="Author" src="https://img.shields.io/badge/status-progress-brightgreen"></a>
-</p>
+<a href="https://github.com/qiraxyz/viriustrade/blob/main/README.md"><img src="https://img.shields.io/badge/status-progress-brightgreen" alt="Progress"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
