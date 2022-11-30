@@ -22,7 +22,7 @@ ViriusTrade is accessible and powerful.
 
 ### Develop By :
 
-- **[qiraxyz](https://github.com/qiraxyz/)** <a href="https://img.shields.io/badge/status-leader-brightgreen"></a>
+- **[qiraxyz](https://github.com/qiraxyz/)** <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/status-leader-brightgreen"></a>
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
