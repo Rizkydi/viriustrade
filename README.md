@@ -20,25 +20,9 @@ ViriusTrade is accessible and powerful.
 
 
 
-### Develop By :
+### Develop && Contribute By :
 
-- **[qiraxyz](https://github.com/qiraxyz/) <a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/status-leader-brightgreen"></a>**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **<a href="https://github.com/qiraxyz"><img src="https://img.shields.io/badge/qiraxyz-leader-brightgreen"></a>**
+- **<a href="https://github.com/rizkydi"><img src="https://img.shields.io/badge/rizkydi-front--end-blue"></a>**
+- **<a href="https://github.com/fauzankirana"><img src="https://img.shields.io/badge/fauzankir-database-orange"></a>**
+- **<a href="https://github.com/Kars12347"><img src="https://img.shields.io/badge/Ammar-mock--up-yellow"></a>**
