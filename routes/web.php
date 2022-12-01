@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [appController::class, 'app']);
+Route::get('/', [appController::class, 'appChat']);
