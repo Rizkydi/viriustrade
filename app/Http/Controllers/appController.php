@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class appController extends Controller
 {
     public function app() {
-        return view('interface.app');
+        return view('interface.appChat');
     }
 }
