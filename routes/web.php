@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\appController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [appController::class, 'appChat']);
+Route::get('/', [appController::class, 'appChat']);  
+// Route::redirect('admin','/');
+// 
+// 
+
+Route::get('/virustrade', [appController::class, 'landingpage']);
+Route::get('/kategori', [appController::class, 'kategori']);
+Route::get('/login', [appController::class, 'login']);
+Route::get('/register', [appController::class, 'register']);
+Route::get('/forgot', [appController::class, 'forgotpassword']);
+
+// redirect
+Route::redirect('admin','/virustrade');
+Route::redirect('Admin','/virustrade');
