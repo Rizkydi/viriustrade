@@ -14,14 +14,14 @@ body {
     left: 50% !important;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 32%;
+    width: 60%;
+    max-width: 768px;
     height: 490px;
-    width: 409px;
 }
 
 .logo-virustrade img {
     position: absolute;
-    width: 13%;
+    width: 8%;
     left: 170px;
     top: 20px;
 }
@@ -53,7 +53,7 @@ body {
     position: absolute;
     font-size: 14px;
     color: #9FA2B4;
-    left: 90px;
+    left: 100px;
     top: 130px;
 }
 
@@ -158,7 +158,6 @@ body {
     background-color: #9FA2B4;
     padding: 10px;
     color: white;
-    width: px;
     height: 14px;
     left: 295px;
     top: 22px;
@@ -194,4 +193,235 @@ body {
     left: 159px;
     width: 100px;
     color: #3751FF;
+}
+
+.grs-or hr {
+    position: absolute;
+    width: 28%;
+    height: 0px;
+    left: 310px;
+    top: 120px;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.txt-or p {
+    position: absolute;
+    width: 1%;
+    height: 13px;
+    left: 415px;
+    top: 240px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+
+    color: #000000;
+
+    transform: rotate(-90deg);
+}
+
+.grs-or-2 hr {
+    position: absolute;
+    width: 26%;
+    height: 0px;
+    left: 318px;
+    top: 359px;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.txt-social-account p {
+    position: absolute;
+    width: 32%;
+    height: 19px;
+    left: 470px;
+    top: 70px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+
+    color: #000000;
+
+}
+
+/* github */
+
+.github-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 170px;
+
+    background: #3978BC;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.github-link:hover {
+    background-color: #363740;
+}
+
+.bing-github {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-github {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-github p {
+    position: absolute;
+    width: 590%;
+    height: 20px;
+    left: 60px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+/* facebook */
+
+.facebook-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 250px;
+
+    background: #4167B2;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.facebook-link:hover {
+    background-color: #363740;
+}
+
+.bing-facebook {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-facebook {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-facebook p {
+    position: absolute;
+    width: 670%;
+    height: 20px;
+    left: 57px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+/* google */
+
+.google-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 330px;
+
+    background: #4286F5;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.google-link:hover {
+    background-color: #363740;
+}
+
+.bing-google {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-google {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-google p {
+    position: absolute;
+    width: 670%;
+    height: 20px;
+    left: 57px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
 }
