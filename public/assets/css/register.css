@@ -14,14 +14,14 @@ body {
     left: 50% !important;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 32%;
-    height: 540px;
-    width: 409px;
+    width: 60%;
+    max-width: 768px;
+    height: 490px;
 }
 
 .logo-virustrade img {
     position: absolute;
-    width: 13%;
+    width: 8%;
     left: 170px;
     top: 20px;
 }
@@ -40,7 +40,7 @@ body {
 .txt-register p {
     position: absolute;
     left: 100px;
-    width: 52%;
+    width: 54%;
     top: 100px;
     font-family: 'quicksand';
     font-weight: 700;
@@ -56,7 +56,7 @@ body {
     width: 61%;
     font-size: 14px;
     color: #9FA2B4;
-    left: 81px;
+    left: 85px;
     top: 130px;
 }
 
@@ -83,6 +83,7 @@ body {
     font-size: 13px;
     left: -20px;
     top: 22px;
+    width: 330px;
     height: 12px;
     font-family: quicksand;
     font-weight: 500;
@@ -91,7 +92,6 @@ body {
     border: 1px solid #F0F1F7;
     border-radius: 8px;
     outline: none;
-    width: 16%;
 }
 
 .email {
@@ -117,7 +117,7 @@ body {
     font-size: 13px;
     left: -20px;
     top: 22px;
-    width: 16%;
+    width: 330px;
     height: 12px;
     font-family: quicksand;
     font-weight: 500;
@@ -151,6 +151,7 @@ body {
     font-size: 13px;
     left: -20px;
     top: 22px;
+    width: 330px;
     height: 12px;
     font-family: quicksand;
     font-weight: 500;
@@ -159,7 +160,6 @@ body {
     border: 1px solid #F0F1F7;
     border-radius: 8px;
     outline: none;
-    width: 16%;
 }
 
 .txt-forgot p {
@@ -177,7 +177,6 @@ body {
     left: 300px;
     color: #9FA2B4;
     top: 32px;
-    width: 1%;
     font-size: 15px;
 }
 
@@ -215,7 +214,8 @@ body {
     color: white;
     font-weight: 500;
     border-radius: 10px;
-    width: 16%;
+    width: 335px;
+    outline: none;
     font-family: quicksand;
 }
 
@@ -227,7 +227,7 @@ body {
 
 .txt-sign-up p {
     position: absolute;
-    top: 450px;
+    top: 440px;
 }
 
 .link-sign-up a p {
@@ -235,4 +235,235 @@ body {
     left: 165px;
     width: 100px;
     color: #3751FF;
+}
+
+.grs-or hr {
+    position: absolute;
+    width: 28%;
+    height: 0px;
+    left: 310px;
+    top: 120px;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.txt-or p {
+    position: absolute;
+    width: 1%;
+    height: 13px;
+    left: 415px;
+    top: 240px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+
+    color: #000000;
+
+    transform: rotate(-90deg);
+}
+
+.grs-or-2 hr {
+    position: absolute;
+    width: 26%;
+    height: 0px;
+    left: 318px;
+    top: 359px;
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.txt-social-account p {
+    position: absolute;
+    width: 32%;
+    height: 19px;
+    left: 470px;
+    top: 70px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+
+    color: #000000;
+
+}
+
+/* github */
+
+.github-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 170px;
+
+    background: #3978BC;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.github-link:hover {
+    background-color: #363740;
+}
+
+.bing-github {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-github {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-github p {
+    position: absolute;
+    width: 590%;
+    height: 20px;
+    left: 60px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+/* facebook */
+
+.facebook-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 250px;
+
+    background: #4167B2;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.facebook-link:hover {
+    background-color: #363740;
+}
+
+.bing-facebook {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-facebook {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-facebook p {
+    position: absolute;
+    width: 670%;
+    height: 20px;
+    left: 57px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+/* google */
+
+.google-link {
+    position: absolute;
+    width: 31.5%;
+    height: 50px;
+    left: 470px;
+    top: 330px;
+
+    background: #4286F5;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.google-link:hover {
+    background-color: #363740;
+}
+
+.bing-google {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: -0.1px;
+    top: -0.1px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+}
+
+.logo-google {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.txt-google p {
+    position: absolute;
+    width: 670%;
+    height: 20px;
+    left: 57px;
+    top: -9px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
 }

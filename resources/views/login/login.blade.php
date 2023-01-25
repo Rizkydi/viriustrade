@@ -8,7 +8,7 @@
     <title>Virius Trade </title>
     {{-- css --}}
     <link rel="stylesheet" href="../assets/css/login.css">
-    
+
     <!-- {{-- font linked --}} -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
     </script>
     {{-- iconify --}}
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    
+
     @include('header.favicon')
 </head>
 
@@ -39,7 +39,7 @@
                     <p>Dashboard Kit</p>
                 </div>
                 <div class="txt-login">
-                    <p>Log In to Dashboard Kit</p>
+                    <p>Sign In to Dashboard Kit</p>
                 </div>
                 <div class="txt-enter-your-and-password-below">
                     <p>Enter your email and password below</p>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="submit">
-                    <input type="submit" value="Login">
+                    <input type="submit" value="Login" class="float">
                 </div>
                 <div class="txt-sign-up">
                     <p>Don’t have an account?</p>
@@ -79,19 +79,75 @@
                         </a>
                     </div>
                 </div>
+                <div class="grs-or">
+                    <hr>
+                    <div class="txt-or">
+                        <p>OR</p>
+                        <div class="grs-or-2">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="txt-social-account">
+                    <p>Log In with Your Social Account</p>
+                </div>
+                <div class="social-ccount">
+                        {{-- github --}}
+                        <a href="/">
+                            <div class="github-link">
+                                <div class="bing-github">
+                                    <div class="logo-github">
+                                        <iconify-icon icon="bi:github" style="color: #3978bc;" width="24" height="24">
+                                        </iconify-icon>
+                                        <div class="txt-github">
+                                            <p>LOG IN WITH GITHUB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        {{-- facebook --}}
+                        <a href="/">
+                            <div class="facebook-link">
+                                <div class="bing-facebook">
+                                    <div class="logo-facebook">
+                                        <iconify-icon icon="ri:facebook-fill" style="color: #4167b2;" width="24" height="24"></iconify-icon>
+                                        <div class="txt-facebook">
+                                            <p>LOG IN WITH FACEBOOK</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div class="google-link">
+                                <div class="bing-google">
+                                    <div class="logo-google">
+                                        <iconify-icon icon="logos:google-icon" style="color: #4167b2;" width="24" height="24"></iconify-icon>
+                                        <div class="txt-google">
+                                            <p>LOG IN WITH GOOGLE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                </div>
             </div>
         </form>
+    </div>
+    </form>
     </div>
 
     <script>
         function myFunction() {
-        var x = document.getElementById("myInput");
-        if (x.type === "password") {
-            x.type = "text";
-        } else {
-            x.type = "password";
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
         }
-    }
+
     </script>
 
     @yield('content')
