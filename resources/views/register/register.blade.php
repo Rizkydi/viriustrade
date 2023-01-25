@@ -30,7 +30,8 @@
 
 <body>
     <div class="register">
-        <form action="">
+        <form action="{{ route('sample.validate_registration') }}" method="POST">
+            @csrf
             <div class="form-login">
                 <div class="logo-virustrade">
                     <img src="../assets/icons/favicon/apple-touch-icon.png" alt="">
@@ -49,7 +50,7 @@
                         <p>NAMA</p>
                     </div>
                     <div class="input-nama">
-                        <input type="nama" placeholder="first and last name" required>
+                        <input type="nama" name="name" placeholder="first and last name" required>
                     </div>
                 </div>
                 <div class="email">
@@ -57,7 +58,7 @@
                         <p>EMAIL</p>
                     </div>
                     <div class="input-email">
-                        <input type="email" placeholder="Email address" required>
+                        <input type="email" name="email" placeholder="Email address" required>
                     </div>
                 </div>
                 <div class="password">
@@ -70,7 +71,7 @@
                         </a>
                     </div>
                     <div class="input-password">
-                        <input type="password" placeholder="pasword" required id="myInput">
+                        <input type="password" name="password" placeholder="password" required id="myInput">
                     </div>
                     <div class="eye">
                         <i class="fa-regular fa-eye-slash" onclick="myFunction()"></i>
