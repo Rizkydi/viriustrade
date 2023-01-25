@@ -3,6 +3,7 @@
 use App\Http\Controllers\appController;
 use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\SocialiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,6 @@ Route::redirect('Admin','/virustrade');
 
 Route::controller(Auth::class)->group(function(){
 
-
     // Route::get('logout', 'logout')->name('logout');
 
     Route::post('validate_registration', 'validate_registration')->name('sample.validate_registration');
@@ -43,3 +43,9 @@ Route::controller(Auth::class)->group(function(){
     Route::post('validate_login', 'validate_logins')->name('sample.validate_login');
 
 });
+
+/**
+ * socialite auth
+ */
+Route::get('/auth/{provider}', [SocialiteController::class, 'redirectToProvider'])->name('redicect.socialite');
+Route::get('/auth/{provider}/callback', [SocialiteController::class, 'handleProvideCallback'])->name('callback.socialite');
