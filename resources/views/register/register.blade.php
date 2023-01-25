@@ -103,7 +103,7 @@
             </div>
             <div class="social-ccount">
                     {{-- github --}}
-                    <a href="/">
+                    <a href="auth/github">
                         <div class="github-link">
                             <div class="bing-github">
                                 <div class="logo-github">
@@ -117,7 +117,7 @@
                         </div>
                     </a>
                     {{-- facebook --}}
-                    <a href="/">
+                    <a href="auth/facebook">
                         <div class="facebook-link">
                             <div class="bing-facebook">
                                 <div class="logo-facebook">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/">
+                    <a href="auth/google">
                         <div class="google-link">
                             <div class="bing-google">
                                 <div class="logo-google">
