@@ -30,7 +30,8 @@
 
 <body>
     <div class="login">
-        <form action="/" method="">
+        <form action="{{ route('sample.validate_login') }}" method="POST">
+            @csrf
             <div class="form-login">
                 <div class="logo-virustrade">
                     <img src="../assets/icons/favicon/apple-touch-icon.png" alt="">
@@ -48,8 +49,11 @@
                     <div class="txt-email">
                         <p>EMAIL</p>
                     </div>
+                    @if($errors->has('email'))
+							<span class="text-danger">{{ $errors->first('email') }}</span>
+						@endif
                     <div class="input-email">
-                        <input type="email" placeholder="Email address" required>
+                        <input type="email" name="email" placeholder="Email address" required>
                     </div>
                 </div>
                 <div class="password">
@@ -62,12 +66,15 @@
                         </a>
                     </div>
                     <div class="input-password">
-                        <input type="password" placeholder="pasword" required id="myInput">
+                        <input type="password" name="password" placeholder="pasword" required id="myInput">
                     </div>
                     <div class="eye">
                         <i class="fa-regular fa-eye-slash" onclick="myFunction()"></i>
                     </div>
                 </div>
+                @if($errors->has('password'))
+							<span class="text-danger">{{ $errors->first('password') }}</span>
+						@endif
                 <div class="submit">
                     <input type="submit" value="Login" class="float">
                 </div>

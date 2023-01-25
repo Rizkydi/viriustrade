@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\appController;
-use App\Http\Controllers\LoginController;
+use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,11 +23,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/virustrade', [appController::class, 'landingpage']);
 Route::get('/kategori', [appController::class, 'kategori']);
 Route::get('/login', [appController::class, 'login']);
-Route::get('/register', [appController::class, 'register']);
+Route::get('/register', [appController::class, 'register'])->name('registration');
 Route::get('/forgot', [appController::class, 'forgotpassword']);
-Route::get('/', [appController::class, 'homepage']);
+Route::get('/', [appController::class, 'homepage'])->name('homepages');
 Route::get('/hotitems', [appController::class, 'hotitems']);
 
 // redirect
 Route::redirect('admin','/virustrade');
 Route::redirect('Admin','/virustrade');
+
+
+Route::controller(Auth::class)->group(function(){
+
+
+    // Route::get('logout', 'logout')->name('logout');
+
+    Route::post('validate_registration', 'validate_registration')->name('sample.validate_registration');
+
+    Route::post('validate_login', 'validate_logins')->name('sample.validate_login');
+
+});
