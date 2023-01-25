@@ -10,7 +10,6 @@ class appController extends Controller
         return view('interface.landing');
     }
     
-
     public function landingpage() {
         return view('landingpage.landingpage');
     }
@@ -29,5 +28,13 @@ class appController extends Controller
     
     public function forgotpassword() {
         return view('forgotpassword.forgot');
+    }
+
+    public function homepage(){
+        return view('homepage.home');
+    }
+
+    public function hotitems(){
+        return view('homepage.hotitems');
     }
 }
