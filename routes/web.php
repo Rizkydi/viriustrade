@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [appController::class, 'appChat']);  
+// Route::get('/', [appController::class, 'appChat']);  
 // Route::redirect('admin','/');
 // 
 // 
@@ -25,6 +25,8 @@ Route::get('/kategori', [appController::class, 'kategori']);
 Route::get('/login', [appController::class, 'login']);
 Route::get('/register', [appController::class, 'register']);
 Route::get('/forgot', [appController::class, 'forgotpassword']);
+Route::get('/', [appController::class, 'homepage']);
+Route::get('/hotitems', [appController::class, 'hotitems']);
 
 // redirect
 Route::redirect('admin','/virustrade');
