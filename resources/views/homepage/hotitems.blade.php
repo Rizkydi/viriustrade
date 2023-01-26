@@ -193,14 +193,24 @@
                 <h3 style="color: #FFFFFF;">Company</h3>
                 <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 2px; width: 200%;">Our Company</p>
                 <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 75px;">Clients</p>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 2px;">Contact</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 37px; right: 2px;">Contact</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 54px; right: 2px;">Press</p>
             </div>
-            <div class="">
+            <div class="company-2">
                 <h3 style="color: #FFFFFF;">About</h3>
-                <p style="">Our Story</p>
-                <p style="">Awards</p>
+                <p style="color: #B2B2B2; position: relative; bottom: 12px; right: 2px;">Blog</p>
+                <p style="color: #B2B2B2; position: relative; right: 64px; bottom: 12px;">Newsletter</p>
+                <p style="color: #B2B2B2; position: relative; right: 2px; bottom: 25px; width: 200%;">Privacy Policy</p>
             </div>
         </footer>
+        <form action="" class="email-bar">
+            <input type="search" name="email" id="" placeholder="Email Address" style="font-family: 'Quicksand', sans-serif;">
+            <div class="hak-cipta">
+                <img src="./assets/Image/Group 41.png" alt="">
+                <p>2009-2022 Happy marketer private ltd. all rights reversed</p>
+            </div>  
+        </form>
+
     </div>
 </body>
 </html>
