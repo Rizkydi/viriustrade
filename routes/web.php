@@ -27,6 +27,7 @@ Route::get('/register', [appController::class, 'register']);
 Route::get('/forgot', [appController::class, 'forgotpassword']);
 Route::get('/', [appController::class, 'homepage']);
 Route::get('/hotitems', [appController::class, 'hotitems']);
+Route::get('/profileinfo', [appController::class, 'profileinfo']);
 
 // redirect
 Route::redirect('admin','/virustrade');
