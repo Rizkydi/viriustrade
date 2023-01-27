@@ -41,4 +41,15 @@ class appController extends Controller
     public function profileinfo(){
         return view('homepage.profileinfo');
     }
+
+    public function chatting(){
+        return view('chatter.chatting');
+    }
+
+    public function itemsinfo(){
+        return view('homepage.itemsinfo');
+    }
+    public function offersinfo(){
+        return view('homepage.offersinfo');
+    }
 }
