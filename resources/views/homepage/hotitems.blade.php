@@ -28,20 +28,19 @@
 <body>
 
       <!-- navbar -->
-      <div class="container-1">    
-        <div class="guest-part">
-            <img src="./Assets/Image/logo viriustrade.png" alt="">
-            <p>ViriusTrade</p>
-        </div>
-        <form action="" class="search-bar">
-            <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
-            <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
-            <div class="profile-blue">
-                <i class="fa-solid fa-user"></i>
-                <div class="icon-badge"></div>
+        <div class="container-1">    
+            <div class="guest-part">
+                <a href="/hotitems"><img src="./Assets/Image/logo viriustrade.png" alt=""></a>
+                <a href="/hotitems" style="text-decoration: none;"><p>ViriusTrade</p></a>
             </div>
-        </form>
-    </div>
+            <form action="" class="search-bar">
+                <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
+                <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
+                <a href="/login"><div class="profile-blue">
+                    <i class="fa-solid fa-user"></i>
+                </div></a>
+            </form>
+        </div>
 
     <img src="./Assets/Image/homeroblox.png" alt="" class="homeroblox">
 
@@ -184,23 +183,23 @@
         <footer>
             <div class="about">
                 <h3 style="color: #FFFFFF;">About</h3>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 10px; right: 2px; width: 500%;">Our Story</p>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 10px; right: 48px;">Awards</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 10px; right: 5px; width: 500%;">Our Story</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 10px; right: 45px;">Awards</p>
                 <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 20px; right: 5px; width: 200%;">Our Team</p>
                 <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 30px; right: 5px; width: 200%;">Career</p>
             </div>
             <div class="about">
                 <h3 style="color: #FFFFFF;">Company</h3>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 2px; width: 200%;">Our Company</p>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 75px;">Clients</p>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 37px; right: 2px;">Contact</p>
-                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 54px; right: 2px;">Press</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 4px; width: 200%;">Our Company</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 17px; right: 73px;">Clients</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 37px; right: 5px;">Contact</p>
+                <p style="color: #B2B2B2; width: 100%; position: relative; bottom: 54px; right: 5px;">Press</p>
             </div>
             <div class="company-2">
                 <h3 style="color: #FFFFFF;">About</h3>
-                <p style="color: #B2B2B2; position: relative; bottom: 12px; right: 2px;">Blog</p>
+                <p style="color: #B2B2B2; position: relative; bottom: 12px; right: 5px;">Blog</p>
                 <p style="color: #B2B2B2; position: relative; right: 64px; bottom: 12px;">Newsletter</p>
-                <p style="color: #B2B2B2; position: relative; right: 2px; bottom: 25px; width: 200%;">Privacy Policy</p>
+                <p style="color: #B2B2B2; position: relative; right: 5px; bottom: 25px; width: 200%;">Privacy Policy</p>
             </div>
         </footer>
         <form action="" class="email-bar">
@@ -208,9 +207,8 @@
             <div class="hak-cipta">
                 <img src="./assets/Image/Group 41.png" alt="">
                 <p>2009-2022 Happy marketer private ltd. all rights reversed</p>
-            </div>  
+            </div>
         </form>
-
     </div>
 </body>
 </html>

@@ -2,20 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-::-webkit-scrollbar {
-    width: 1px;
-}
-
 body {
     background-color: #072227;
     overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 
 .container-1 {
     background-color: #181817;
@@ -126,230 +130,206 @@ body {
     border-radius: 20px;
 }
 
-.profile-info {
-    font-family: 'Quicksand', sans-serif;
+#homeroblox {
+    position: absolute;
+    align-items: center;
+    left: 555px;
+    top: 200px;
 }
 
-.profile-1 {
-    width: 115px;
-    height: 115px;
-    background-color: #9ED5C5;
-    border-radius: 60px;
+.side-description {
+    display: flex;
+}
+
+.listings-btn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;   
+    color: #00FEFC;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.listings-btn iconify-icon {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.side-description p {
+    position: absolute;
+    top: 10%;
+    right: -155%;
+}
+
+.side-information img {
     position: relative;
-    left: 80px;
-    top: 100px;
+    top: 350px;
+    left: 100px;
 }
 
-.profile-1 i {
-    color: #DDDDDD;
-    margin-left: 35px;
-    margin-top: 35px;
+.star-green {
+    color: #A1F615;
     font-size: 50px;
+    position: absolute;
+    top: 720px;
+    left: 125px;
 }
 
-.profile-info h3 {
+.side-information h3 {
     color: #00FEFC;
-    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 440px;
+    margin-left: 100px;
 }
 
-.profile-info p {
+.side-information p {
+    margin-left: 100px;
     color: #00FEFC;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: 220px;
-}
-
-.profile-info p i {
-    color: #FFA800;
-    font-size: 12px;
-    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .online-badge {
-    width: 12px;
-    height: 12px;
-    background-color: #8ED022;
-    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #C0A236;
+    border-radius: 100px;
+    margin-left: 180px;
     position: relative;
-    top: 10px;
-    left: 220px;
+    bottom: 15px;
 }
 
 .online-badge p {
     position: relative;
-    right: 196px;
-    bottom: 2px;
+    right: 80px;
+    bottom: 5px;
 }
 
-.star-fill {
-    font-size: 20px;
-    position: relative;
-    top: 55px;
-    color: #8ED022;
-    left: 84px;
-}
-
-.joined {
-    position: relative;
-    top: 70px;
-    right: 129px;
-}
-
-.follower {
-    font-size: 40px;
-    position: relative;
-    top: 100px;
-    left: 80px;
+.online-badge iconify-icon {
     color: #00FEFC;
-}
-
-.follower p {
+    font-size: 20px;
+    margin-left: 80px;
     position: relative;
-    right: 170px;
-    bottom: 65px;
+    bottom: 25px;
 }
 
-.follower :nth-child(3) {
-    margin-left: 270px;
+.online-badge :nth-child(3) {
+    position: absolute;
+    left: 10px;
+    top: -4px;
+    width: 1100%;
+}
+
+.side-text {
+    width: 25%;
+    margin-top: 30px;
+}
+
+.side-btn button {
+    height: 100px;
+    position: absolute;
+    top: 1050px;
+    width: 20%;
+    left: 100px;
+    background-color: #3A8891;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.side-btn iconify-icon {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-right: 190px;
+    color: #FFFFFF;
+}
+.side-btn h1 {
     position: relative;
-    bottom: 100px;
+    bottom: 47px;
+    color: #FFFFFF;
+    left: 40px;
 }
 
-.follower :nth-child(4) {
+.items-1 {
+    width: 70%;
+    height: 156px;
+    background-color: #9ED5C5;
+    position: absolute;
+    left: 540px;
+    bottom: 320px;
+    border-radius: 10px;
+}
+
+.items-1 img {
     position: relative;
-    bottom: 60px;
+    top: 30px;
+    left: 40px;
 }
 
-.follower :nth-child(5) {
+.items-1 h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 180px;
     position: relative;
-    right: 170px;
-    bottom: 115px;
+    bottom: 80px;
+}
+.items-1 p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 185px;
+    position: relative;
+    bottom: 80px;
 }
 
-.follower :nth-child(6) {
-    margin-left: 270px;
+.online-badging {
+    width: 10px;
+    height: 10px;
+    background-color: #C0A236;
+    margin-left: 255px;
+    position: relative;
+    bottom: 95px;
+    border-radius: 20px;
+}
+
+.items-1 :nth-child(5) {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 285px;
+    position: relative;
+    bottom: 110px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.items-1 iconify-icon {
+    font-size: 30px;
+    margin-left: 350px;
+    position: relative;
+    bottom: 130px;
+}
+
+.items-1 h5 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 285px;
+    position: relative;
+    bottom: 160px;
+    right: -100px;
+}
+
+.star-items {
+    color: #00FEFC;
+    margin-left: 285px;
     position: relative;
     bottom: 150px;
+    right: 100px;
 }
 
-.profile-info button {
-    width: 150px;
-    height: 40px;
-    background-color: rgba(0, 254, 252, 0.35);
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    left: 80px;
-    color: #FFFFFF;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.warning-info {
-    position: relative;
-    left: 200px;
-}
-
-.warning-info i {
-    color: #00FEFC;
-    position: relative;
-    left: 800px;
-    bottom: 400px;
-}
-
-.warning-info i {
-    cursor: pointer;
-}
-
-#listings-btn {
-    background: none;
-    outline: none;
-    border: none;
-    color: #00FEFC;
-    cursor: pointer;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 20px;
-}
-
-#follow-btn {
-    background-color: #DFCD27;
-    color: #DFCD27;
-    width: 73px;
-    height: 37px;
-    font-family: 'Quicksand', sans-serif;
-    background: none;
-    outline: none;
-    border-color: #DFCD27;
-    border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    left: 820px;
-    bottom: 400px;
-}
-
-#message-btn {
-    background-color: #AEFEFF;
-    width: 4%;
-    height: 37px;
-    border: none;
-    position: relative;
-    left: 840px;
-    bottom: 400px;
-    border-radius: 10px;
+.star-items p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 285px;
+    position: absolute;
+    top: -20px;
+    left: -190px;
     color: black;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.warning-info img {
-    position: relative;
-    left: 200px;
-}
-
-.warning-description {
-    display: flex;
-    position: absolute;
-    left: 680px;
-    bottom: 430px;
-    width: 50%;
-}
-
-.warning-description img {
-    width: 400%;
-    height: 303px;
-    position: relative;
-    right: 300px;
-    top: 100px;
-}
-
-.warning-description :nth-child(2) {
-    color: #00FEFC;
-    font-size: 50px;
-    position: absolute;
-    top: 430px;
-    right: 1220px;
-}
-
-.warning-description p {
-    position: absolute;
-    top: 432px;
-    right: 720px;
-    width: 50%;
-}
-
-.warning-description :nth-child(4) {
-    margin-top: 100px;
-}
-
-.warning-description :nth-child(5) {
-    margin-top: 160px;
-}
-
-.right-bar img {
-    position: absolute;
-    left: 1410px;
-    bottom: 10px;
-    height: 700px;
-    width: 450px;
 }
 
 footer {
@@ -363,7 +343,7 @@ footer {
 .number {
     position: absolute;
     left: 300px;
-    top: 20px;
+    top: 1200px;
 }
 
 .number p {
@@ -375,7 +355,7 @@ footer {
 .gmail {
     position: absolute;
     left: 800px;
-    top: 20px;
+    top: 1200px;
 }
 
 .gmail p {
@@ -410,7 +390,7 @@ footer {
     font-family: 'Quicksand', sans-serif;
     color: #00FEFC;
     position: relative;
-    top: 130px;
+    top: 309px;
     left: 300px;
 }
 
@@ -418,7 +398,7 @@ footer {
     font-family: 'Quicksand', sans-serif;
     color: #00FEFC;
     position: relative;
-    top: 25px;
+    top: 200px;
     left: 500px;
 }
 
@@ -426,7 +406,7 @@ footer {
     font-family: 'Quicksand', sans-serif;
     color: #00FEFC;
     position: relative;
-    top: -80px;
+    top: 100px;
     left: 700px;
 }
 
@@ -439,7 +419,12 @@ footer {
     outline: 0;
     position: absolute;
     left: 1000px;
-    bottom: -200px;
+    bottom: -440px;
+}
+
+.hak-cipta {
+    position: relative;
+    top: 190px;
 }
 
 .hak-cipta img {
