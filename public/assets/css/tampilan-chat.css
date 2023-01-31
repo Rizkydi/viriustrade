@@ -69,10 +69,10 @@ body {
 
 .search-bar button {
     background-color: #00FEFC;
-    width: 120px;
+    width: 9%;
     height: 50px;
     border: 0;
-    margin-left: 75.5%;
+    margin-left: 75%;
     border-radius: 10px;
 }
 
@@ -447,4 +447,10 @@ body {
     color: #00FEFC;
     font-size: 50px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-1 {
+        width: 95%;
+    }
 }

@@ -35,7 +35,7 @@ class appController extends Controller
     }
 
     public function hotitems(){
-        return view('homepage.hotitems');
+        return view('hotitems.hotitems');
     }
 
     public function profileinfo(){
