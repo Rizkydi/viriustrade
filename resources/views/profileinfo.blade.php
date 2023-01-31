@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/Logo/logo viriustrade.png">
+    <link rel="shortcut icon" href="./Assets/Image/logo viriustrade.png">
     <!-- font roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,69 +22,67 @@
     <!-- src fontawesome -->
     <script src="https://kit.fontawesome.com/af674c1813.js" crossorigin="anonymous"></script>
     {{-- css --}}
-    <link rel="stylesheet" href="assets/css/offers-info.css">
+    <link rel="stylesheet" href="assets/css/style-3.css">
     <title>Virius   Trade</title>
 </head>
 <body>
-<div class="content">
-        <!-- navbar -->
 
-    <div class="container-1">    
+      <!-- navbar -->
+      <div class="container-1">    
         <div class="guest-part">
-            <a style="text-decoration: none;"><img src="./assets/Image/logo viriustrade.png" alt=""></a>   
-            <a style="text-decoration: none;"><p>ViriusTrade</p></a>
+            <img src="./Assets/Image/logo viriustrade.png" alt="">
+            <p>ViriusTrade</p>
         </div>
         <form action="" class="search-bar">
             <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
             <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
-            <a style="decoration: none;">
-                <div class="profile-blue">
+            <div class="profile-blue">
                 <i class="fa-solid fa-user"></i>
-            </div></a>
+                <div class="icon-badge"></div>
+            </div>
         </form>
     </div>
-<div class="all">
-    <div class="side-information">
-        <button class="listings-btn"><iconify-icon icon="material-symbols:arrow-back-ios-rounded"></iconify-icon><p>Back To Listings</p></button>
-        <img src="./assets/Image/Rectangle 57.png" alt="">
-    </div>
-    
-    <div class="side-ordering">
-        <p>Price</p>
-        <button type="submit"><iconify-icon icon="fluent-emoji-high-contrast:japanese-castle"></iconify-icon></button>
-        <h5>Make An Offer</h5>
+
+    {{-- info profile left --}}
+    <div class="profile-info">
+        <div class="profile-1"><i class="fa-solid fa-user"></i></div>
+        <h3>Ammar Karim</h3>
+        <p><i class="fa-solid fa-map-location-dot"></i>Indonesia/DKI jakarta</p>
+        <div class="online-badge"><p>Online</p></div>
+        <div class="star-fill">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star" style="color: #ECECEC;"></i>
+        </div>
+        <p class="joined">Joined Mei 2019</p>
+        <div class="follower">
+            <iconify-icon icon="fluent-mdl2:user-followed"></iconify-icon>
+            <p style="font-size: 30px">29</p>
+            <p>Followers</p>
+            <iconify-icon icon="simple-line-icons:user-following"></iconify-icon>
+            <p style="font-size: 30px;">0</p>
+            <p>Following</p>
+        </div>
+        <button type="submit" class="items-profil">items profil</button>
     </div>
 
-    <div class="side-btn">
-        <button type="submit">Message</button>
+    <div class="warning-info">
+        <i class="fa-solid fa-chevron-left"><button id="listings-btn">Back To Listings</button></i>
+        <button type="submit" id="follow-btn">Follow</button>
+        <button type="submit" id="message-btn">Message</button>
+    </div>
+    <div class="warning-description">
+         <img src="./assets/Image/Rectangle 63.png" alt="">
+         <iconify-icon icon="mdi:warning-circle-outline"></iconify-icon>
+         <p style="color: #00FEFC; font-family: 'Quicksand', sans-serif; font-weight: bold; font-size: 18px;">Lorem ipsum dolor sit amet consectetur. Turpis egestas duis vestibulum tincidunt morbi fermentum enim purus. Quis sed faucibus id condimentum nulla vulputate tristique nulla.</p>
+         <p style="color: #00FEFC; font-family: 'Quicksand', sans-serif; font-weight: bold; font-size: 18px;">Praesent morbi ac eu mattis integer netus netus. Elit viverra donec interdum suscipit elementum nullam. </p>
+         <p  style="color: #00FEFC; font-family: 'Quicksand', sans-serif; font-weight: bold; font-size: 18px;">Consectetur est lacus at tellus lacus massa id sodales neque. Adipiscing euismod est proin ipsum elementum enim adipiscing ultrices. Egestas a neque mauris montes ac gravida. Volutpat varius commodo mi vel. Eget suspendisse sed adipiscing eu.  </p>
+    </div>
+    <div class="right-bar">
+        <img src="./assets/Image/Rectangle 66.png" alt="">
     </div>
 
-    <div class="offers-btn">
-        <button type="submit">Offers<iconify-icon icon="fluent:ticket-diagonal-16-filled"></iconify-icon></button>
-    </div>
-
-    <div class="information-center">
-        <h5>Listed A Few Minutes Ago</h5>
-        <p>By Ammar Karim</p>
-        <i class="fa-sharp fa-solid fa-star"></i>
-        <i class="fa-sharp fa-solid fa-star"></i>
-        <i class="fa-sharp fa-solid fa-star"></i>
-        <i class="fa-sharp fa-solid fa-star"></i>
-        <i class="fa-sharp fa-solid fa-star"></i>
-        <h6>(390) Reviews</h6>
-    </div>
-
-    <div class="information-description">
-        <iconify-icon icon="carbon:warning"></iconify-icon>
-        <p>Lorem ipsum dolor sit amet consectetur. Turpis egestas duis vestibulum tincidunt morbi fermentum enim purus. Quis sed faucibus id condimentum nulla vulputate tristique nulla.</p>
-        <p>Praesent morbi ac eu mattis integer netus netus. Elit viverra donec interdum suscipit elementum nullam. </p>
-        <p>Consectetur est lacus at tellus lacus massa id sodales neque. Adipiscing euismod est proin ipsum elementum enim adipiscing ultrices. Egestas a neque mauris montes ac gravida. Volutpat varius commodo mi vel. Eget suspendisse sed adipiscing eu.  </p>
-    </div>
-
-    <div class="right-image">
-        <img src="./assets/Image/Rectangle 62.png" alt="">
-    </div>
-</div>
     <footer>
         <div class="contact-content">
             <div class="number">        
@@ -101,6 +99,7 @@
             <div class="line-footer"></div>
             </div>
         </div>
+
         <div class="about">
             <h3>About</h3>
             <p>Our Story</p>
@@ -131,6 +130,6 @@
             <img src="./assets/Image/Group 41.png" alt="">
             <p>2009-2022 Happy marketer private ltd. all rights reversed</p>
         </div>  
-    </footer> 
+    </footer>
 </body>
 </html>

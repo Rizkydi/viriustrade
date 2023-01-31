@@ -8,7 +8,6 @@
     <title>Virius Trade </title>
     {{-- css --}}
     <link rel="stylesheet" href="../assets/css/register.css">
-    
      <!-- {{-- font linked --}} -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +42,7 @@
                     <p>Sign Up to Dashboard Kit</p>
                 </div>
                 <div class="txt-enter-your-and-password-below">
-                    <p>Enter your nama, email and password below</p>
+                    <p>Enter your name, email and password below</p>
                 </div>
                 <div class="nama">
                     <div class="txt-nama">

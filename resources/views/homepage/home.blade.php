@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/Logo/logo viriustrade.png">
+    <link rel="shortcut icon" href="./Assets/Image/logo viriustrade.png">
     <!-- font roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <!-- src fontawesome -->
     <script src="https://kit.fontawesome.com/af674c1813.js" crossorigin="anonymous"></script>
     {{-- css --}}
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/homepage.css">
     <title>Virius   Trade</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
             <a href="/" style="text-decoration: none;"><img src="./assets/Image/logo viriustrade.png" alt=""></a>   
             <a href="/" style="text-decoration: none;"><p>ViriusTrade</p></a>
         </div>
-        <form action="" class="search-bar">
+        <form action="" class="search-bar">   
             <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
             <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
             <a href="/login" style="decoration: none;">
@@ -50,33 +50,33 @@
         <div class="cards-1">
             <a href="/hotitems"><img src="./assets/Image/Diablo II.jpeg" alt=""></a>
             <p>Diablo II: Resurrected</p>
-            <a href=""><img src="./assets/Image/world zero.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/world zero.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Roblox World Zero</p>
-            <a href=""><img src="./assets/Image/pokemon.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/pokemon.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Pokemon Scarlet & Violet</p>
         </div>
         <div class="cards-2">
-            <a href=""><img src="./assets/Image/survive the killer.jpeg" alt=""></a>
+            <a href="/hotitems"><img src="./assets/Image/survive the killer.jpeg" alt=""></a>
             <p>Roblox Survive the killer!</p>
-            <a href=""><img src="./assets/Image/pet simulator.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/pet simulator.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Roblox Pet Simulator X</p>
-            <a href=""><img src="./assets/Image/elden ring.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/elden ring.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Elden Ring</p>
         </div>
         <div class="cards-3">
-            <a href=""><img src="./assets/Image/flee the facality.jpeg" alt=""></a>
+            <a href="/hotitems"><img src="./assets/Image/flee the facality.jpeg" alt=""></a>
             <p>Roblox Flee the Facility</p>
-            <a href=""><img src="./assets/Image/blox fruits.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/blox fruits.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Roblox Blox Fruits</p>
-            <a href=""><img src="./assets/Image/rocket league.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/rocket league.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Rocket League</p>
         </div>
         <div class="cards-4">
-            <a href=""><img src="./assets/Image/breaking point.jpeg" alt=""></a>
+            <a href="/hotitems"><img src="./assets/Image/breaking point.jpeg" alt=""></a>
             <p>Roblox Breaking Point</p>
-            <a href=""><img src="./assets/Image/murder mystery.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/murder mystery.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Roblox Murder Mystery 2</p>
-            <a href=""><img src="./assets/Image/hypixel.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/hypixel.jpeg" alt="" style="margin-top: 50px;"></a>
             <p>Hypixel Skyblock</p>
         </div>
 
