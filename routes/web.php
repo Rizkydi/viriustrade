@@ -4,6 +4,7 @@ use App\Http\Controllers\appController;
 use App\Http\Controllers\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\SocialiteController;
+use App\Http\Controllers\profileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +29,7 @@ Route::get('/register', [appController::class, 'register'])->name('registration'
 Route::get('/forgot', [appController::class, 'forgotpassword']);
 Route::get('/', [appController::class, 'homepage'])->name('homepages');
 Route::get('/hotitems', [appController::class, 'hotitems']);
-Route::get('/profileinfo', [appController::class, 'profileinfo']);
+Route::get('/profileinfo', [profileController::class, 'index']);
 Route::get('/chatting', [appController::class, 'chatting']);
 Route::get('/itemsinfo', [appController::class, 'itemsinfo']);
 Route::get('/offersinfo', [appController::class, 'offersinfo']);

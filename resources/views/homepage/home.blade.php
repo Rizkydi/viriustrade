@@ -37,7 +37,7 @@
         <form action="" class="search-bar">   
             <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
             <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
-            <a href="/login" style="decoration: none;">
+            <a href="/profileinfo" style="decoration: none;">
                 <div class="profile-blue">
                 <i class="fa-solid fa-user"></i>
             </div></a>
