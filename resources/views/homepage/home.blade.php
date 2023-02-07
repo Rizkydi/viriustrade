@@ -50,33 +50,33 @@
         <div class="cards-1">
             <a href="/hotitems"><img src="./assets/Image/Diablo II.jpeg" alt=""></a>
             <p>Diablo II: Resurrected</p>
-            <a href="/hotitems"><img src="./assets/Image/world zero.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/world zero.jpeg" alt=""></a>
             <p>Roblox World Zero</p>
-            <a href="/hotitems"><img src="./assets/Image/pokemon.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/pokemon.jpeg" alt=""></a>
             <p>Pokemon Scarlet & Violet</p>
         </div>
         <div class="cards-2">
             <a href="/hotitems"><img src="./assets/Image/survive the killer.jpeg" alt=""></a>
             <p>Roblox Survive the killer!</p>
-            <a href="/hotitems"><img src="./assets/Image/pet simulator.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/pet simulator.jpeg" alt=""></a>
             <p>Roblox Pet Simulator X</p>
-            <a href="/hotitems"><img src="./assets/Image/elden ring.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/elden ring.jpeg" alt=""></a>
             <p>Elden Ring</p>
         </div>
         <div class="cards-3">
             <a href="/hotitems"><img src="./assets/Image/flee the facality.jpeg" alt=""></a>
             <p>Roblox Flee the Facility</p>
-            <a href="/hotitems"><img src="./assets/Image/blox fruits.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/blox fruits.jpeg" alt=""></a>
             <p>Roblox Blox Fruits</p>
-            <a href="/hotitems"><img src="./assets/Image/rocket league.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/rocket league.jpeg" alt=""></a>
             <p>Rocket League</p>
         </div>
         <div class="cards-4">
             <a href="/hotitems"><img src="./assets/Image/breaking point.jpeg" alt=""></a>
             <p>Roblox Breaking Point</p>
-            <a href="/hotitems"><img src="./assets/Image/murder mystery.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/murder mystery.jpeg" alt=""></a>
             <p>Roblox Murder Mystery 2</p>
-            <a href="/hotitems"><img src="./assets/Image/hypixel.jpeg" alt="" style="margin-top: 50px;"></a>
+            <a href="/hotitems"><img src="./assets/Image/hypixel.jpeg" alt=""></a>
             <p>Hypixel Skyblock</p>
         </div>
 

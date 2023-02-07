@@ -25,20 +25,21 @@
     <title>Virius Trade</title>
 </head>
 <body>
-        <!-- navbar -->
-        <div class="container-1">    
-            <div class="guest-part">
-                <img src="./Assets/Image/logo viriustrade.png" alt="">
-                <p>ViriusTrade</p>
-            </div>
-            <form action="" class="search-bar">
-                <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
-                <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
-                <div class="profile-blue">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-            </form>
-        </div>
+  <!-- navbar -->
+  <div class="container-1">    
+    <div class="guest-part">
+        <a href="/" style="text-decoration: none;"><img src="./assets/Image/logo viriustrade.png" alt=""></a>   
+        <a href="/" style="text-decoration: none;"><p>ViriusTrade</p></a>
+    </div>
+    <form action="" class="search-bar">   
+        <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
+        <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
+        <a href="/login" style="decoration: none;">
+            <div class="profile-blue">
+            <i class="fa-solid fa-user"></i>
+        </div></a>
+    </form>
+</div>
 
         <!-- sidebar chat -->
         <div class="sidebar-chat">
