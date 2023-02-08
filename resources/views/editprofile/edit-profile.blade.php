@@ -11,12 +11,10 @@
     <meta name="description"
         content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>Dashboard Admin</title>
+    <title>Monster Lite Template by WrapPixel</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/monster-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <!-- Custom CSS -->
-    <link href="../assets/plugins/chartist/dist/chartist.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="../assets/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,7 +38,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
         data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
@@ -51,22 +49,22 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand" href="index.html">
-                        <!-- Logo icon -->
-                        <!-- <b class="logo-icon"> -->
+                    {{-- <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --> --}}
+                        {{-- <b class="logo-icon"> --}}
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <!-- <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" /> -->
+                            {{-- <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" /> --}}
 
-                        <!-- </b> -->
+                        {{-- </b> --}}
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span class="logo-text">
+                        {{-- <span class="logo-text"> --}}
                             <!-- dark Logo text -->
-                            <!-- <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" /> -->
+                            {{-- <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" /> --}}
 
-                        </span>
-                    </a>
+                        {{-- </span> --}}
+                    {{-- </a> --}}
                     <!-- ============================================================== -->
                     <!-- End Logo -->
                     <!-- ============================================================== -->
@@ -89,7 +87,7 @@
                         <!-- Search -->
                         <!-- ============================================================== -->
 
-                        <li class="nav-item hidden-sm-down">    
+                        <li class="nav-item hidden-sm-down">
                             <form class="app-search ps-3">
                                 <input type="text" class="form-control" placeholder="Search for..."> <a
                                     class="srh-btn"><i class="ti-search"></i></a>
@@ -127,13 +125,34 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <!-- User Profile-->
+                        {{-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="/dashboard-admin" aria-expanded="false"><i class="me-3 far fa-clock fa-fw"
+                                    aria-hidden="true"></i><span class="hide-menu">Dashboard</span></a></li> --}}
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="" aria-expanded="false">
-                                        <i class="me-3 far fa-clock fa-fw"aria-hidden="true"></i>
-                                <span class="hide-menu">Dashboard</span>
-                            </a>
+                                href="pages-profile.html" aria-expanded="false">
+                                <i class="me-3 fa fa-user" aria-hidden="true"></i><span
+                                    class="hide-menu">Profile</span></a>
                         </li>
-                        
+                        {{-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="table-basic.html" aria-expanded="false"><i class="me-3 fa fa-table"
+                                    aria-hidden="true"></i><span class="hide-menu">Table</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="icon-fontawesome.html" aria-expanded="false"><i class="me-3 fa fa-font"
+                                    aria-hidden="true"></i><span class="hide-menu">Icon</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="map-google.html" aria-expanded="false"><i class="me-3 fa fa-globe"
+                                    aria-hidden="true"></i><span class="hide-menu">Google Map</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="pages-blank.html" aria-expanded="false"><i class="me-3 fa fa-columns"
+                                    aria-hidden="true"></i><span class="hide-menu">Blank</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="pages-error-404.html" aria-expanded="false"><i class="me-3 fa fa-info-circle"
+                                    aria-hidden="true"></i><span class="hide-menu">Error 404</span></a></li>
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="https://www.wrappixel.com/templates/monsteradmin/"
+                                class="btn btn-danger text-white mt-4" target="_blank">Upgrade to
+                                Pro</a>
+                        </li> --}}
                     </ul>
 
                 </nav>
@@ -154,16 +173,23 @@
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-8 align-self-center">
-                        <h3 class="page-title mb-0 p-0">Dashboard</h3>
+                        <h3 class="page-title mb-0 p-0">Profile</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                    <li class="breadcrumb-item"><a href="/dashboard-admin">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Profile</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
+                    {{-- <div class="col-md-6 col-4 align-self-center">
+                        <div class="text-end upgrade-btn">
+                            <a href="https://www.wrappixel.com/templates/monsteradmin/"
+                                class="btn btn-success d-none d-md-inline-block text-white" target="_blank">Upgrade to
+                                Pro</a>
+                        </div>
+                    </div> --}}
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -171,151 +197,111 @@
             <!-- ============================================================== -->
             <!-- ============================================================== -->
             <!-- Container fluid  -->
-                <!-- Table -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
                 <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- Row -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <!-- Column -->
+                    <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
-                            <div class="card-body">
-                                <div class="d-md-flex">
-                                    <h4 class="card-title col-md-10 mb-md-0 mb-3 align-self-center">Projects of the Month</h4>
-                                    <div class="col-md-2 ms-auto">
-                                        <select class="form-select shadow-none col-md-2 ml-auto">
-                                            <option selected>January</option>
-                                            <option value="1">February</option>
-                                            <option value="2">March</option>
-                                            <option value="3">April</option>
-                                        </select>
+                            <div class="card-body profile-card">
+                                <center class="mt-4"> <img src="../assets/images/users/5.jpg"
+                                        class="rounded-circle" width="150" />
+                                    <h4 class="card-title mt-2">Hanna Gover</h4>
+                                    <h6 class="card-subtitle">Accoubts Manager Amix corp</h6>
+                                    <div class="row justify-content-center">
+                                        <div class="col-4">
+                                            <a href="javascript:void(0)" class="link">
+                                                <i class="icon-people" aria-hidden="true"></i>
+                                                <span class="font-normal">254</span>
+                                            </a></div>
+                                        <div class="col-4">
+                                            <a href="javascript:void(0)" class="link">
+                                                <i class="icon-picture" aria-hidden="true"></i>
+                                                <span class="font-normal">54</span>
+                                            </a></div>
                                     </div>
-                                </div>
-                                <div class="table-responsive mt-5">
-                                    <table class="table stylish-table no-wrap">
-                                        <thead>
-                                            <tr>
-                                                <th class="border-top-0" colspan="2">Assigned</th>
-                                                <th class="border-top-0">Name</th>
-                                                <th class="border-top-0">Budget</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <td style="width:50px;"><span class="round">S</span></td>
-                                            <td class="align-middle">
-                                                <h6>Sunil Joshi</h6><small clas\="text-muted">Web Designer</small>
-                                            </td>
-                                            <div class="action-flex">
-                                                <td class="align-middle">FAROUR Bloizth</td>
-                                                <td class="align-middle">07/01/2022</td>
-                                                <td><div class="form-group">
-                                                    <div class="col-sm-12 d-flex">
-                                                        <a href="/edit-profile"><button class="btn btn-success mx-auto mx-md-2 text-white">Edit</button></a>
-                                                        <button class="btn btn-success mx-auto mx-md-0 text-white" style="background-color: red;">Delete</button>
-                                                    </div>
-                                                    <!-- <div class="col-sm-12 d-flex">
-                                                        
-                                                    </div> -->
-                                                </div>
-                                            </div>
-                                         </td>
-                                            <!-- <tr class="active">
-                                                <td><span class="round"><img src="../assets/images/users/2.jpg"
-                                                            alt="user" width="50"></span></td>
-                                                <td class="align-middle">
-                                                    <h6>Andrew</h6><small class="text-muted">Project Manager</small>
-                                                </td>
-                                                <td class="align-middle">Real Homes</td>
-                                                <td class="align-middle">$23.9K</td>
-                                            </tr> -->
-                                            {{-- <tr>
-                                                <td><span class="round round-success">B</span></td>
-                                                <td class="align-middle">
-                                                    <h6>Bhavesh patel</h6><small class="text-muted">Developer</small>
-                                                </td>
-                                                <td class="align-middle">MedicalPro Theme</td>
-                                                <td class="align-middle">$12.9K</td>
-                                            </tr>
-                                            <tr>
-                                                <td><span class="round round-primary">N</span></td>
-                                                <td class="align-middle">
-                                                    <h6>Nirav Joshi</h6><small class="text-muted">Frontend Eng</small>
-                                                </td>
-                                                <td class="align-middle">Elite Admin</td>
-                                                <td class="align-middle">$10.9K</td>
-                                            </tr>
-                                            <tr>
-                                                <td><span class="round round-warning">M</span></td>
-                                                <td class="align-middle">
-                                                    <h6>Micheal Doe</h6><small class="text-muted">Content Writer</small>
-                                                </td>
-                                                <td class="align-middle">Helping Hands</td>
-                                                <td class="align-middle">$12.9K</td>
-                                            </tr>
-                                            <tr>
-                                                <td><span class="round round-danger">N</span></td>
-                                                <td class="align-middle">
-                                                    <h6>Johnathan</h6><small class="text-muted">Graphic</small>
-                                                </td>
-                                                <td class="align-middle">Digital Agency</td>
-                                                <td class="align-middle">$2.6K</td>
-                                            </tr> --}}
-                                        </tbody>
-                                    </table>
-                                </div>
+                                </center>
                             </div>
                         </div>
                     </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-8 col-xlg-9 col-md-7">
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material mx-2">
+                                    <div class="form-group">
+                                        <label class="col-md-12 mb-0">Full Name</label>
+                                        <div class="col-md-12">
+                                            <input type="text" placeholder="Johnathan Doe"
+                                                class="form-control ps-0 form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="example-email" class="col-md-12">Email</label>
+                                        <div class="col-md-12">
+                                            <input type="email" placeholder="johnathan@admin.com"
+                                                class="form-control ps-0 form-control-line" name="example-email"
+                                                id="example-email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12 mb-0">Password</label>
+                                        <div class="col-md-12">
+                                            <input type="password" value="password"
+                                                class="form-control ps-0 form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12 mb-0">Phone No</label>
+                                        <div class="col-md-12">
+                                            <input type="text" placeholder="123 456 7890"
+                                                class="form-control ps-0 form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12 mb-0">Message</label>
+                                        <div class="col-md-12">
+                                            <textarea rows="5" class="form-control ps-0 form-control-line"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-12">Select Country</label>
+                                        <div class="col-sm-12 border-bottom">
+                                            <select class="form-select shadow-none border-0 ps-0 form-control-line">
+                                                <option>London</option>
+                                                <option>India</option>
+                                                <option>Usa</option>
+                                                <option>Canada</option>
+                                                <option>Thailand</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-12 d-flex">
+                                            <a href="/dashboard-admin"><button class="btn btn-success mx-auto mx-md-0 text-white">Update Profile</button></a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
                 </div>
+                <!-- Row -->
                 <!-- ============================================================== -->
-                <!-- Table -->
+                <!-- End PAge Content -->
                 <!-- ============================================================== -->
                 <!-- ============================================================== -->
-                <!-- Recent blogss -->
+                <!-- Right sidebar -->
                 <!-- ============================================================== -->
-                <div class="row justify-content-center">
-                    <!-- Column -->
-                    <!-- <div class="col-lg-4 col-md-6">
-                        <div class="card">
-                            <img class="card-img-top img-responsive" src="../assets/images/big/img1.jpg" alt="Card">
-                            <div class="card-body">
-                                <ul class="list-inline d-flex align-items-center">
-                                    <li class="ps-0">20 May 2021</li>
-                                    <li class="ms-auto"><a href="javascript:void(0)" class="link">3 Comment</a></li>
-                                </ul>
-                                <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- Column -->
-                    <!-- Column -->
-                    <!-- <div class="col-lg-4 col-md-6">
-                        <div class="card">
-                            <img class="card-img-top img-responsive" src="../assets/images/big/img2.jpg" alt="Card">
-                            <div class="card-body">
-                                <ul class="list-inline d-flex align-items-center">
-                                    <li class="ps-0">20 May 2021</li>
-                                    <li class="ms-auto"><a href="javascript:void(0)" class="link">3 Comment</a></li>
-                                </ul>
-                                <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- Column -->
-                    <!-- Column -->
-                    <!-- <div class="col-lg-4 col-md-6">
-                        <div class="card">
-                            <img class="card-img-top img-responsive" src="../assets/images/big/img4.jpg" alt="Card">
-                            <div class="card-body">
-                                <ul class="list-inline d-flex align-items-center">
-                                    <li class="ps-0">20 May 2021</li>
-                                    <li class="ms-auto"><a href="javascript:void(0)" class="link">3 Comment</a></li>
-                                </ul>
-                                <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- Column -->
-                </div>
+                <!-- .right-sidebar -->
                 <!-- ============================================================== -->
-                <!-- Recent blogss -->
+                <!-- End Right sidebar -->
                 <!-- ============================================================== -->
             </div>
             <!-- ============================================================== -->
@@ -324,12 +310,9 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <!-- <footer class="footer text-center">
+            {{-- <footer class="footer text-center">
                 © 2021 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
-            </footer> -->
-            <footer class="footer text-center">
-                <!-- © 2021 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a> -->
-            </footer>
+            </footer> --}}
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -354,11 +337,6 @@
     <script src="js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.js"></script>
-    <!--This page JavaScript -->
-    <!--flot chart-->
-    <script src="../assets/plugins/flot/jquery.flot.js"></script>
-    <script src="../assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
-    <script src="js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>
