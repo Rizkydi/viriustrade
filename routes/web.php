@@ -33,6 +33,7 @@ Route::get('/profileinfo', [profileController::class, 'index']);
 Route::get('/chatting', [appController::class, 'chatting']);
 Route::get('/itemsinfo', [appController::class, 'itemsinfo']);
 Route::get('/offersinfo', [appController::class, 'offersinfo']);
+Route::get('/dashboard-admin', [appController::class, 'dashboard']);
 
 // redirect
 Route::redirect('admin','/virustrade');
