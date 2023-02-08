@@ -57,4 +57,8 @@ class appController extends Controller
     public function dashboard(){
         return view('dashboard.dashboard-admin');
     }
+
+    public function editprofile(){
+        return view('editprofile.edit-profile');
+    }
 }
