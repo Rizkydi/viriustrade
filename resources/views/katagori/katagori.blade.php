@@ -128,7 +128,7 @@
                     <ul id="sidebarnav">
                         <!-- User Profile-->
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="" aria-expanded="false">
+                                href="/dashboard-admin" aria-expanded="false">
                                         {{-- <i class="me-3 far fa-clock fa-fw"aria-hidden="true"></i> --}}
                                 <span class="hide-menu">Dashboard</span>
                             </a>
@@ -160,12 +160,12 @@
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-8 align-self-center">
-                        <h3 class="page-title mb-0 p-0">Dashboard</h3>
+                        <h3 class="page-title mb-0 p-0">category</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="/katagori  ">category</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                    <li class="breadcrumb-item"><a href="/dashboard-admin">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">category</li>
                                 </ol>
                             </nav>
                         </div>
