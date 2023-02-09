@@ -15,7 +15,7 @@ class profileController extends Controller
         else
         {      
               // return view('pages.session.login');
-               return redirect(route('view.login'));
+               return view('login.login');
         }
     }
 

@@ -9,23 +9,18 @@ use Illuminate\Support\Facades\Auth as checked;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Hash;
 
-class Auth extends Controller
-{
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request)
-    {
-       
+class Authentication extends Controller{
+    public function login() {
+        return view('login.login');
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
+    public function register() {
+        return view('register.register');
+    }
+    
+    public function forgotpassword() {
+        return view('forgotpassword.forgot');
+    }
 
     public function validate_logins(Request $request)
     {
