@@ -248,6 +248,7 @@ body {
 .warning-info {
     position: relative;
     left: 200px;
+    flex-direction: column;
 }
 
 .warning-info i {
@@ -306,11 +307,12 @@ body {
 }
 
 .warning-description {
-    display: flex;
+    display: flex !important;
     position: absolute;
     left: 680px;
     bottom: 430px;
     width: 50%;
+    
 }
 
 .warning-description img {

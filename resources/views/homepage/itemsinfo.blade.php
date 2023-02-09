@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Assets/Image/logo viriustrade.png">
+    <link rel="shortcut icon" href="./assets/Logo/logo viriustrade.png">
     <!-- font roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,121 +26,158 @@
     <title>Virius   Trade</title>
 </head>
 <body>
+
 <div class="content">
-        <!-- navbar -->
-
-    <div class="container-1">    
+    <div class="navbar">    
         <div class="guest-part">
-            <a href=""><img src="./assets/Image/logo viriustrade.png" alt=""></a>   
-            <a href=""><p>ViriusTrade</p></a>
+            <a href="/" style="text-decoration: none;"><img src="./assets/Image/logo viriustrade.png" alt=""></a>   
+            <a href="/" style="text-decoration: none; color: white; font-size: 20px; font-family: quicksand; font-weight: 600;"><p>ViriusTrade</p></a>
         </div>
-        <form action="" class="search-bar">
-            <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
-            <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
-            <a href="" style="decoration: none;">
-                <div class="profile-blue">
+        <div class="search-bar">
+            <form action="">
+                <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
+                <button type="submit"><iconify-icon icon="eva:search-outline"></iconify-icon></button>
+            </form>
+        </div>
+        <a href="/login" class="profile-blue">
+            <div>
                 <i class="fa-solid fa-user"></i>
-            </div></a>
-        </form>
+            </div>
+        </a>
+    </div> 
+
+    <div class="iklan">
+        <img src="./Assets/Image/homeroblox.png" alt="">
     </div>
 
-    <img src="./assets/Image/homeroblox.png" alt="" id="homeroblox">
-
-    {{-- side-description --}}
     <div class="side-description">
-        <button class="listings-btn"><iconify-icon icon="mdi:arrow-left"></iconify-icon><p>Back To Profil</p></button>
+        <a href="/hotitems" style="text-decoration: none;"><iconify-icon icon="mdi:arrow-left" style="color:white;"></iconify-icon><p>Back To Profil</p></a>
     </div>
 
-    <div class="side-information">
-        <img src="./assets/Image/Rectangle 29.png" alt="">
-        <div class="star-green">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star" style="color: #D9D9D9; position: relative; right: 6px;"></i>
+    <div class="items-1">
+        <div class="gmbr-120">
+            <img src="./assets/Image/Rectangle 29.png" alt="">
+            <div class="ohmaga2">
+                <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                <i class="fa-solid fa-star"></i>
+                <!-- <h6>Five Days Ago</h6> -->
+            </div>
+            <div class="ohmaga3">
+                <p>Gothicutie Bodice/Jacket</p>
+                <div class="ohmaga01">
+                    <p>john_90.0</p>
+                    <h5><iconify-icon icon="fluent-emoji-high-contrast:japanese-castle"></iconify-icon>Make An Offer</h5>
+                </div>
+            </div>
+            <div class="ohamaga4">
+                <p>Lorem ipsum dolor sit amet consectetur. Pretium fermentum egestas sollicitudin a amet lectus feugiat praesent bibendum. Pellentesque in diam donec viverra nec sed. Ipsum facilisi condimentum in vel sed quis lorem id. Magna arcu eu tristique fermentum scelerisque volutpat viverra leo maecenas. </p>
+            </div>
+            <a href="/chatting" style="text-decoration: none;"><div class="btn-ohmaga">
+                <div class="btm-ohg">
+                    <img src="./assets/Image/troll.png" alt="">
+                    <p>message</p>
+                </div>
+            </div></a>
         </div>
-        <h3>Gothicutie Bodice/Jacket</h3>
-        <p>john_90.0</p>
-        <div class="online-badge">
-            <p>Online</p>
-            <iconify-icon icon="fluent-emoji-high-contrast:japanese-castle"></iconify-icon>
-            <p>Make An Offer</p>
-        </div>
-        <div class="side-text">
-            <p>Lorem ipsum dolor sit amet consectetur. Pretium fermentum egestas sollicitudin a amet lectus feugiat praesent bibendum. Pellentesque in diam donec viverra nec sed. Ipsum facilisi condimentum in vel sed quis lorem id. Magna arcu eu tristique fermentum scelerisque volutpat viverra leo maecenas. </p>
-        </div>
-    </div>
-
-    <div class="side-btn">
-        <button type="submit"><iconify-icon icon="ep:shopping-trolley"></iconify-icon><h1>Message</h1></button>
-    </div>
-
-    <div class="center-items">
-        <div class="items-1">
-            <img src="./assets/Image/Rectangle 89.png" alt="">
-            <h1>1X othicutie Bodice/Jacket</h1>
-            <p>MegNel</p>
-            <div class="online-badging"></div>
-            <p>Online</p>
-            <iconify-icon icon="fluent-emoji-high-contrast:japanese-castle"></iconify-icon>
-            <h5>Make An Offer</h5>
-            <div class="star-items">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <p>(90)</p>
-                <h6 style="color: black; font-family: 'Roboto', sans-serif; font-weight: lighter;">Five Days Ago</h6>
+        <div class="tems-">
+            <div class="tems">
+                <img src="./assets/Image/Rectangle 89.png" alt="">
+                <div class="star-items">
+                    <p>1X othicutie Bodice/Jacket</p>
+                    <p>MegNel</p>
+                    <h5><iconify-icon icon="fluent-emoji-high-contrast:japanese-castle"></iconify-icon>Make An Offer</h5>
+                    <p><i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                        <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                        <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                        <i class="fa-solid fa-star" style="color: rgba(161, 246, 21, 1);"></i>
+                        <i class="fa-solid fa-star"></i> (90)</p>
+                        <h6>Five Days Ago</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer>
-        <div class="contact-content">
-            <div class="number">        
-                <img src="../assets/Image/Group 54.png" alt="">
-                <p style="color: #FFFFFF; font-family: 'Quicksand', sans-serif;">+6287721778320</p>
+    <div class="explanation-content">
+            
+            <div class="What-is-Traderie">
+                <p>What is Traderie?</p>
+                <hr>
             </div>
-             <div class="gmail">
-                <img src="./assets/Image/Group72.png" alt="">
-                <p style="color: #FFFFFF; font-family: 'Quicksand', sans-serif;"><u>julbeltems@gmail.com</u></p>
-            <div class="location">
-                <img src="./assets/Image/Group73.png" alt="">
-                <p style="color: #FFFFFF; font-family: 'Quicksand', sans-serif;">Jalan Taruna Jaya No.57, RT.6/RW.6, Cibubur, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta</p>
+            <div id="cntn">
+                <div class="cntn-">
+                    <img src="../assets/Image/trade-finder.png" alt="">
+                    <p>Trade Finder</p>
+                    <br>
+                    <!-- <br> -->
+                    <p>Traderie is a trade finder. We provide the safest and fastest way to find the trades you want with other great players. We have millions of players in games like Roblox, Animal Crossing, Diablo and more!</p>
+                </div>
+                <div class="cntn-">
+                    <img src="../assets/Image/how-does-it-wrok.png" alt="">
+                    <p>How Does it Work?</p>
+                    <br>
+                    <!-- <br> -->
+                    <p>First, choose a game on our home page. Looking to sell something? Put up a listing and what you're looking for in return. Trying to find something? Find what you're looking for and place an offer on the listing. Find each other in game to trade. It's that easy.</p>
+                </div>
+                <div class="cntn-">
+                    <img src="../assets/Image/not-a-black-market.png" alt="">
+                    <p>NOT a Black Market</p>
+                    <br>
+                    <!-- <br> -->
+                    <p>What's the difference between Traderie and blackmarket sites? We DO NOT allow any type of real money transactions on our site. Selling in game items for real money is illegal. Your safety is our priority, only trade in game items for other in game items.</p>
+                </div>
             </div>
-            <div class="line-footer"></div>
-            </div>
-        </div>
-        <div class="about">
-            <h3>About</h3>
-            <p>Our Story</p>
-            <p>Awards</p>
-            <p>Our Team</p>
-            <p>Career</p>
+            <hr>
         </div>
 
-        <div class="company-1">
-            <h3>Company</h3>
-            <p>Our Company</p>
-            <p>Clients</p>
-            <p>Contact</p>
-            <p>Press</p>
-        </div>
+        <!-- contact-content -->
 
-        <div class="company-2">
-            <h3>Company</h3>
-            <p>Blog</p>
-            <p>Newsletter</p>
-            <p>Privacy Policy</p>
-        </div>
+            <div id="cntg">
+                <div class="pl">        
+                    <img src="./assets/Image/Group 54.png" alt="">
+                    <p>+6287721778320</p>
+                </div>
+                <div class="pl">
+                    <img src="./assets/Image/Group72.png" alt="">
+                    <p>julbeltems@gmail.com</p>
+                </div>
+                <div class="pl">
+                    <img src="../assets/Image/Group73.png" alt="">
+                    <p>Jalan Taruna Jaya No.57, RT.6/RW.6, Cibubur, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta</p>
+                </div>
+                <div class="line-7"></div>
+            </div>
 
-        <form action="" class="email-bar">
-            <input type="search" name="email" id="" placeholder="Email Address" style="font-family: 'Quicksand', sans-serif;">
-        </form>
-        <div class="hak-cipta">
-            <img src="./assets/Image/Group 41.png" alt="">
-            <p>2009-2022 Happy marketer private ltd. all rights reversed</p>
-        </div>  
-    </footer>    
+            <!-- grs -->
+
+            <div class="grt"></div>
+
+            <footer>
+                <div class="ohmg">
+                    <p>Traderie is a place that connects millions of video game players from around the world. This is the perfect place to find trades in a variety of games.</p>
+                </div>
+                <div class="gmbr-ohmg">
+                    <div class="gmbr-1">
+                        <img src="../assets/Image/gmbr-discord.png" alt="">
+                    </div>
+                    <div class="gmbr-1">
+                        <img src="../assets/Image/gmbr-twitter.png" alt="">
+                    </div>
+                    <div class="gmbr-1">
+                        <img src="../assets/Image/gmbr-instagram.png" alt="">
+                    </div>
+                    <div class="gmbr-1">
+                        <img src="../assets/Image/gmbr-tiktok.png" alt="">
+                    </div>
+                    <div class="gmbr-1">
+                        <img src="../assets/Image/gmbr-facebook.png" alt="">
+                    </div>
+                </div>
+                <div class="gmbr-p">
+                    <p>2009-2022 Happy marketer private ltd. all rights reversed</p>
+                </div>
+            </footer>
 </body>
 </html>
