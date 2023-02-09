@@ -61,4 +61,8 @@ class appController extends Controller
     public function editprofile(){
         return view('editprofile.edit-profile');
     }
+
+    public function katagori(){
+        return view('katagori.katagori');
+    }
 }

@@ -35,6 +35,7 @@ Route::get('/itemsinfo', [appController::class, 'itemsinfo']);
 Route::get('/offersinfo', [appController::class, 'offersinfo']);
 Route::get('/dashboard-admin', [appController::class, 'dashboard']);
 Route::get('/edit-profile', [appController::class, 'editprofile']);
+Route::get('/katagori', [appController::class, 'katagori']);
 
 // redirect
 Route::redirect('admin','/virustrade');
