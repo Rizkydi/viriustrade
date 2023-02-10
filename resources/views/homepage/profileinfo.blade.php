@@ -30,8 +30,8 @@
       <!-- navbar -->
       <div class="container-1">    
         <div class="guest-part">
-            <img src="./Assets/Image/logo viriustrade.png" alt="">
-            <p>ViriusTrade</p>
+            <a href="/" style="text-decoration: none;"><img src="./Assets/Image/logo viriustrade.png" alt=""></a>
+            <a href="/" style="text-decoration: none;"><p>ViriusTrade</p></a>
         </div>
         <form action="" class="search-bar">
             <input type="search" name="" id="" placeholder="Search..." style="font-family: 'Roboto', sans-serif;">
@@ -44,6 +44,7 @@
     </div>
 
     {{-- info profile left --}}
+
     <div class="profile-info">
         <div class="profile-1"><i class="fa-solid fa-user"></i></div>
         <h3>Ammar Karim</h3>
@@ -66,9 +67,8 @@
         </div>
         <button type="submit" class="items-profil">items profil</button>
     </div>
-
     <div class="warning-info">
-        <i class="fa-solid fa-chevron-left"><button id="listings-btn">Back To Listings</button></i>
+        <a href=""><i class="fa-solid fa-chevron-left"><button id="listings-btn">Back To Listings</button></i></a>
         <button type="submit" id="follow-btn">Follow</button>
         <button type="submit" id="message-btn">Message</button>
     </div>
