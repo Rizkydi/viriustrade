@@ -4,18 +4,30 @@ use App\Http\Controllers\appController;
 use App\Http\Controllers\Authentication as Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\SocialiteController;
+use App\Http\Controllers\DashboardAdminController as admin;
 use App\Http\Controllers\profileController;
 
 // view controller landing
-Route::get('/', [appController::class, 'homepage'])->name('homepages');
-Route::get('/hotitems', [appController::class, 'hotitems']);
-Route::get('/profileinfo', [profileController::class, 'index']);
-Route::get('/chatting', [appController::class, 'chatting']);
-Route::get('/itemsinfo', [appController::class, 'itemsinfo']);
-Route::get('/offersinfo', [appController::class, 'offersinfo']);
+Route::controller(appController::class)->group(function(){
+    Route::get('/', 'homepage')->name('homepages');
+    Route::get('/hotitems', 'hotitems');
+    Route::get('/chatting', 'chatting');
+    Route::get('/itemsinfo', 'itemsinfo');
+    Route::get('/offersinfo', 'offersinfo');
+});
+// profile user route controller
+Route::controller(profileController::class)->group(function(){
+    Route::get('/profileinfo', 'index');
+});
 // dashboard admin
-Route::get('/dashboard-admin', [appController::class, 'dashboard']);
-Route::get('/edit-profile', [appController::class, 'editprofile']);
+// dashboard admin priv
+Route::controller(admin::class)->group(function() {
+    Route::get('admin/{id}', 'editprofile')->name('edituser');
+    Route::get('admin', 'index')->name('backdashboard');
+    Route::get('admin/gamecategory/all', 'gamecategory');
+    Route::get('/delete/{id}', 'deleteaccountUser');
+    Route::post('admin/{id}/change', 'upload')->name('upload.image');
+});
 // login register
 Route::controller(Auth::class)->group(function() {
     Route::get('login', 'login');
@@ -30,5 +42,7 @@ Route::controller(Auth::class)->group(function(){
 /**
  * socialite auth
  */
-Route::get('/auth/{provider}', [SocialiteController::class, 'redirectToProvider'])->name('redicect.socialite');
-Route::get('/auth/{provider}/callback', [SocialiteController::class, 'handleProvideCallback'])->name('callback.socialite');
+Route::controller(SocialiteController::class)->group(function(){
+    Route::get('/auth/{provider}', 'redirectToProvider')->name('redicect.socialite');
+    Route::get('/auth/{provider}/callback', 'handleProvideCallback')->name('callback.socialite');
+});

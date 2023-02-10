@@ -11,7 +11,7 @@
     <meta name="description"
         content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>Monster Lite Template by WrapPixel</title>
+    <title>Dashboard Admin profile user</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/monster-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
@@ -177,7 +177,7 @@
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="/dashboard-admin">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="/admin">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Profile</li>
                                 </ol>
                             </nav>
@@ -208,12 +208,17 @@
                     <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
                             <div class="card-body profile-card">
-                                <center class="mt-4"> <img src="../assets/images/users/5.jpg"
-                                        class="rounded-circle" width="150" />
-                                    <h4 class="card-title mt-2">Hanna Gover</h4>
+                                <center class="mt-4"> <img src="{{$data->avatar}}"
+                                    class="rounded-circle" width="150" />
+                                    <h4 class="card-title mt-2">{{ $data->name }}</h4>
                                     <h6 class="card-subtitle">Accoubts Manager Amix corp</h6>
+                                    <form action="/admin/{{ $data->id }}/change" method="POST" enctype="multipart/form-data">
+                                        @csrf
+                                        <input type="file" name="image" class="btn btn-success mx-auto mx-md-0 text-white">
+                                        <input type="submit" value="Update Image" class="btn btn-success mx-auto mx-md-0 text-white">
+                                    </form>
                                     <div class="row justify-content-center">
-                                        <div class="col-4">
+                                        {{-- <div class="col-4">
                                             <a href="javascript:void(0)" class="link">
                                                 <i class="icon-people" aria-hidden="true"></i>
                                                 <span class="font-normal">254</span>
@@ -222,7 +227,7 @@
                                             <a href="javascript:void(0)" class="link">
                                                 <i class="icon-picture" aria-hidden="true"></i>
                                                 <span class="font-normal">54</span>
-                                            </a></div>
+                                            </a></div> --}}
                                     </div>
                                 </center>
                             </div>
@@ -237,14 +242,14 @@
                                     <div class="form-group">
                                         <label class="col-md-12 mb-0">Full Name</label>
                                         <div class="col-md-12">
-                                            <input type="text" placeholder="Johnathan Doe"
+                                            <input type="text" value="{{ $data->name }}"
                                                 class="form-control ps-0 form-control-line">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="example-email" class="col-md-12">Email</label>
                                         <div class="col-md-12">
-                                            <input type="email" placeholder="johnathan@admin.com"
+                                            <input type="email" value="{{ $data->email }}"
                                                 class="form-control ps-0 form-control-line" name="example-email"
                                                 id="example-email">
                                         </div>
@@ -252,24 +257,38 @@
                                     <div class="form-group">
                                         <label class="col-md-12 mb-0">Password</label>
                                         <div class="col-md-12">
-                                            <input type="password" value="password"
+                                            <input type="text" value="{{ $data->password }}"
                                                 class="form-control ps-0 form-control-line">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-md-12 mb-0">Phone No</label>
+                                        <label class="col-md-12 mb-0">User Token</label>
                                         <div class="col-md-12">
-                                            <input type="text" placeholder="123 456 7890"
+                                            <input type="text" value="{{ $data->remember_token }}"
                                                 class="form-control ps-0 form-control-line">
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <label class="col-md-12 mb-0">Provider Login</label>
+                                        <div class="col-md-12">
+                                            <input type="text" value="{{ $data->provider_name }}"
+                                                class="form-control ps-0 form-control-line">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-12 mb-0">Provider Id</label>
+                                        <div class="col-md-12">
+                                            <input type="text" value="{{ $data->provider_id }}"
+                                                class="form-control ps-0 form-control-line">
+                                        </div>
+                                    </div>
+                                    {{-- <div class="form-group">
                                         <label class="col-md-12 mb-0">Message</label>
                                         <div class="col-md-12">
                                             <textarea rows="5" class="form-control ps-0 form-control-line"></textarea>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
+                                    </div> --}}
+                                    {{-- <div class="form-group">
                                         <label class="col-sm-12">Select Country</label>
                                         <div class="col-sm-12 border-bottom">
                                             <select class="form-select shadow-none border-0 ps-0 form-control-line">
@@ -280,7 +299,7 @@
                                                 <option>Thailand</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div>  --}}
                                     <div class="form-group">
                                         <div class="col-sm-12 d-flex">
                                             <a href="/dashboard-admin"><button class="btn btn-success mx-auto mx-md-0 text-white">Update Profile</button></a>

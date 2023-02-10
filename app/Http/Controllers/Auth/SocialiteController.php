@@ -34,41 +34,42 @@ class SocialiteController extends Controller
         return redirect()->route('homepages');
     }
 
-    public function findOrCreateUser($socialUser, $provider)
+    public function findOrCreateUser($socialiteUser, $provider)
     {
-        // Get Social Account
-        $socialAccount = SocialAccount::where('provider_id', $socialUser->getId())
-            ->where('provider_name', $provider)
-            ->first();
 
-        // Jika sudah ada
-        if ($socialAccount) {
-            // return user
-            return $socialAccount->user;
+        // $socialAccount = User::where('provider_id', $socialUser->getId())
+        //     ->where('provider_name', $provider)
+        //     ->first();
 
-            // Jika belum ada
-        } else {
+        // // Jika sudah ada
+        // if ($socialAccount) {
+        //     // return user
+        //     return $socialAccount->user;
+
+        //     // Jika belum ada
+        // } else {
 
             // User berdasarkan email 
-            $user = User::where('email', $socialUser->getEmail())->first();
+            $user = User::where('email', $socialiteUser->getEmail())->first();
 
             // Jika Tidak ada user
             if (!$user) {
                 // Create user baru
                 $user = User::create([
-                    'name'  => $socialUser->getName(),
-                    'email' => $socialUser->getEmail()
+                    'name'  => $socialiteUser->getName(),
+                    'email' => $socialiteUser->getEmail(),
+                    'provider_id'   => $socialiteUser->getId(),
+                    'provider_name' => $provider,
+                    'avatar' => $socialiteUser->avatar
                 ]);
             }
 
-            // Buat Social Account baru
-            $user->socialAccounts()->create([
-                'provider_id'   => $socialUser->getId(),
-                'provider_name' => $provider
-            ]);
+            // // Buat Social Account baru
+            // $user->s()->create([
+                
+            // ]);
 
             // return user
             return $user;
         }
     }
-}

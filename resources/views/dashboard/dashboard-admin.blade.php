@@ -184,15 +184,15 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-md-flex">
-                                    <h4 class="card-title col-md-10 mb-md-0 mb-3 align-self-center">Projects of the Month</h4>
-                                    <div class="col-md-2 ms-auto">
+                                    <h4 class="card-title col-md-10 mb-md-0 mb-3 align-self-center">Account Monitoring</h4>
+                                    {{-- <div class="col-md-2 ms-auto">
                                         <select class="form-select shadow-none col-md-2 ml-auto">
                                             <option selected>January</option>
                                             <option value="1">February</option>
                                             <option value="2">March</option>
                                             <option value="3">April</option>
                                         </select>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="table-responsive mt-5">
                                     <table class="table stylish-table no-wrap">
@@ -200,28 +200,36 @@
                                             <tr>
                                                 <th class="border-top-0" colspan="2">Assigned</th>
                                                 <th class="border-top-0">Name</th>
-                                                <th class="border-top-0">Budget</th>
+                                                <th class="border-top-0">Account Create</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <td style="width:50px;"><span class="round">S</span></td>
-                                            <td class="align-middle">
-                                                <h6>Sunil Joshi</h6><small clas\="text-muted">Web Designer</small>
-                                            </td>
-                                            <div class="action-flex">
-                                                <td class="align-middle">FAROUR Bloizth</td>
-                                                <td class="align-middle">07/01/2022</td>
-                                                <td><div class="form-group">
-                                                    <div class="col-sm-12 d-flex">
-                                                        <a href="/edit-profile"><button class="btn btn-success mx-auto mx-md-2 text-white">Edit</button></a>
-                                                        <button class="btn btn-success mx-auto mx-md-0 text-white" style="background-color: red;">Delete</button>
+                                            @foreach ($data as $dat)
+                                            <tr>
+                                                <td style="width:50px;"><span class="round" style="background-color: rgb(255, 255, 255)"><img style="width:50px"src="{{ $dat->avatar }}"></span></td>
+                                                {{-- <td class="align-middle">
+                                                    <h6>Sunil Joshi</h6><small clas\="text-muted">Web Designer</small>
+                                                </td> --}}
+                                                <td>
+                                                    <div class="action-flex">
+                                                        <td class="align-middle">{{ $dat->name }}</td>
+                                                        <td class="align-middle">{{ $dat->created_at }}</td>
+                                                        <td><div class="form-group">
+                                                            <div class="col-sm-12 d-flex">
+                                                                <a href="admin/{{ $dat->id }}"><button class="btn btn-success mx-auto mx-md-2 text-white">Edit</button></a>
+                                                                <a href="delete/{{ $dat->id }}"><button class="btn btn-success mx-auto mx-md-0 text-white" style="background-color: red;">Delete</button></a>
+                                                            </div>
+                                                    
+                                                </td>
+                                                        <!-- <div class="col-sm-12 d-flex">
+                                                            
+                                                        </div> -->
                                                     </div>
-                                                    <!-- <div class="col-sm-12 d-flex">
-                                                        
-                                                    </div> -->
                                                 </div>
-                                            </div>
-                                         </td>
+                                             </td>
+                                            </tr>
+                                            @endforeach
+
                                             <!-- <tr class="active">
                                                 <td><span class="round"><img src="../assets/images/users/2.jpg"
                                                             alt="user" width="50"></span></td>

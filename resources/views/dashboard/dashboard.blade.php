@@ -211,8 +211,8 @@
                                                         <td class="align-middle">{{ $dat->created_at }}</td>
                                                         <td><div class="form-group">
                                                             <div class="col-sm-12 d-flex">
-                                                                <a href="/admprofile/{{ $dat->id }}"><button class="btn btn-success mx-auto mx-md-2 text-white">Edit</button></a>
-                                                                <button class="btn btn-success mx-auto mx-md-0 text-white" style="background-color: red;">Delete</button>
+                                                                <a href="admin/{{ $dat->id }}"><button class="btn btn-success mx-auto mx-md-2 text-white">Edit</button></a>
+                                                                <a href="delete/{{ $dat->id }}"><button class="btn btn-success mx-auto mx-md-0 text-white" style="background-color: red;">Delete</button></a>
                                                             </div>
                                                     
                                                 </td>

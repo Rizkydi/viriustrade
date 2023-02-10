@@ -53,6 +53,8 @@ class Authentication extends Controller{
          client::create([
              'name'  =>  $data['name'],
              'email' =>  $data['email'],
+             'provider_name' => 'local',
+             'avatar' => 'https://camo.githubusercontent.com/e19b1e10b2ba3c51d606ebc4de9b26ef9e143b2084f88e7b05411d4ad09e1c6f/68747470733a2f2f692e6962622e636f2f6774385876764e2f6c6f676f2d76697269757374726164652e706e67',
              'password' => Hash::make($data['password'])
          ]);
 

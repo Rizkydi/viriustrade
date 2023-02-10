@@ -20,6 +20,9 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'provider_id',
+        'provider_name',
+        'avatar',
         'password',
     ];
 
@@ -44,8 +47,4 @@ class User extends Authenticatable
     /**
 * @return \Illuminate\Database\Eloquent\Relations\HasMany
 */
-    public function socialAccounts()
-    {
-    return $this->hasMany(SocialAccount::class);
-    }
 }

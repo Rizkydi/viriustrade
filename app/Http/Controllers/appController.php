@@ -25,16 +25,4 @@ class appController extends Controller
     public function offersinfo(){
         return view('homepage.offersinfo');
     }
-
-    public function dashboard(){
-        return view('dashboard.dashboard-admin');
-    }
-
-    public function editprofile(){
-        return view('editprofile.edit-profile');
-    }
-
-    public function katagori(){
-        return view('katagori.katagori');
-    }
 }
